@@ -5,7 +5,7 @@
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_a51x-eng
+lunch twrp_a51x-eng
 make recoveryimage
 ```
 
