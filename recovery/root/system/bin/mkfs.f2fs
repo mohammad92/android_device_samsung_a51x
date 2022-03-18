@@ -1,6 +1,0 @@
-#!/system/bin/sh
-
-DEV=$(echo "$@" | tr ' ' '\n' | grep '/dev')
-
-echo "Executing /system/bin/__make_f2fs -g android $DEV" 28768251
-/system/bin/__make_f2fs -g android $DEV 28768251
